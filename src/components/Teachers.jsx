@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 import AuthContext from "../context/AuthContext";
 import Loading from "./Loading";
 import Navbar from "./Navbar";
-import NavbarTop from "./Navbartop";
 import { BsSearch } from "react-icons/bs";
+import NavbarTop from "./NavbarTop";
 
 const getGitHubName = async (githubUsername) => {
   try {
@@ -166,7 +166,7 @@ const Teachers = () => {
           </div>
 
           <div>
-            <NavbarTop />
+            <NavbarTop/>
 
             <div className="w-[1056px] flex items-center bg-[#FCFAFA] justify-center ml-[38px] mb-[30px] h-[49px]">
               <BsSearch className="m-2" />
