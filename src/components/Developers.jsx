@@ -59,7 +59,7 @@ const Developers = () => {
         <Loading />
       </p>
     );
-  if (error) return <p className="text-red-500">❌ {error}</p>;
+  if (error) return <p className="text-red-500">{error}</p>;
   if (profile.length === 0)
     return (
       <p className="text-yellow-500">⚠ Profil ma'lumotlari mavjud emas!</p>

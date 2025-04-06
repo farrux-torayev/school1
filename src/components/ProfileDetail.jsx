@@ -2,12 +2,9 @@ import React from "react";
 import { NavLink, useLocation, useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import NavbarTop from "./Navbartop";
-import Navbar from "./Navbar";
 import { FaChevronRight, FaUser } from "react-icons/fa";
 import LogoutButton from "./LogoutButton";
 import Loading from "./Loading";
-import { toast } from "react-toastify";
 
 const ProfileDetail = () => {
   const location = useLocation();
@@ -209,38 +206,6 @@ const ProfileDetail = () => {
                   Exams
                 </NavLink>
               </li>
-              {/* <li>
-            <NavLink
-              to={"/posts"}
-              className="text-white p-[8px] text-[18px] hover:text-[#17a2b8]"
-            >
-              Posts
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              to="/register"
-              className="text-white p-[8px]  text-[18px] hover:text-[#17a2b8]"
-            >
-              Register
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              to={"/developers"}
-              className="text-white p-[8px] text-[18px] hover:text-[#17a2b8]"
-            >
-              Developers
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              to="/login"
-              className="text-white p-[8px] text-[18px] hover:text-[#17a2b8]"
-            >
-              Login
-            </NavLink>
-          </li> */}
             </ul>
             <ul className=" mt-[90px] w-[192px] relative top-[15px] left-[25px] flex flex-col">
               <li>

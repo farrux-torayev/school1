@@ -1,6 +1,5 @@
 import React from "react";
 import { FaChevronRight } from "react-icons/fa";
-import { RiCodeSSlashLine } from "react-icons/ri";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
@@ -144,38 +143,6 @@ const Navbar = () => {
               Exams
             </NavLink>
           </li>
-          {/* <li>
-            <NavLink
-              to={"/posts"}
-              className="text-white p-[8px] text-[18px] hover:text-[#17a2b8]"
-            >
-              Posts
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              to="/register"
-              className="text-white p-[8px]  text-[18px] hover:text-[#17a2b8]"
-            >
-              Register
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              to={"/developers"}
-              className="text-white p-[8px] text-[18px] hover:text-[#17a2b8]"
-            >
-              Developers
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              to="/login"
-              className="text-white p-[8px] text-[18px] hover:text-[#17a2b8]"
-            >
-              Login
-            </NavLink>
-          </li> */}
         </ul>
         <ul className=" mt-[90px] w-[192px] relative top-[15px] left-[25px] flex flex-col">
           <li>

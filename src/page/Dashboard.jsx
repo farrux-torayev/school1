@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import { useNavigate } from "react-router-dom";
-import NavbarTop from "../components/Navbartop";
+import NavbarTop from "../components/NavbarTop";
 
 const Dashboard = () => {
   const navigate = useNavigate();
